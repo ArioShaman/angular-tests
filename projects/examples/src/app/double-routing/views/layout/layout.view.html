@@ -1,1 +1,19 @@
-<p>layout works!</p>
+<h1>Named outlets</h1>
+
+<a [routerLink]="[{ outlets: { 'panel-outlet': ['first-panel'] } }]">
+  first panel
+</a>
+
+<a [routerLink]="[{ outlets: { 'panel-outlet': ['second-panel'] } }]">
+  second panel
+</a>
+
+<div class="line">
+  <div class="half">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="half">
+    <router-outlet name="panel-outlet"></router-outlet>
+  </div>
+</div>

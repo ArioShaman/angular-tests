@@ -1,0 +1,16 @@
+.line {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  margin-top: 25px;
+
+  .half {
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+
+    &:hover {
+      background: #ececec;
+    }
+  }
+}

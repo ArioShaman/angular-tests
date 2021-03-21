@@ -1,30 +1,30 @@
-<div class="tabs">
-  <div 
-    class="tab"
-    routerLink="personal-info"
-    routerLinkActive="active"
-  >
-    Personal Info
-  </div>
-
-  <div
-    class="tab"
-    routerLink="contact-info"
-    routerLinkActive="active"
-  >
-    Contact Info
-  </div>
-
-  <div
-    class="tab"
-    routerLink="settings"
-    routerLinkActive="active"
-  >
-    Settings
-  </div>
-</div>
-
 <div class="body">
+  <div class="tabs">
+    <div 
+      class="tab"
+      routerLink="personal-info"
+      routerLinkActive="active"
+    >
+      Personal Info
+    </div>
+  
+    <div
+      class="tab"
+      routerLink="contact-info"
+      routerLinkActive="active"
+    >
+      Contact Info
+    </div>
+  
+    <div
+      class="tab"
+      routerLink="settings"
+      routerLinkActive="active"
+    >
+      Settings
+    </div>
+  </div>
+
   <form 
     [formGroup]="mainForm"
     (ngSubmit)="onSubmit(mainForm.value)"

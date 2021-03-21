@@ -1,0 +1,19 @@
+<ng-container [formGroup]="settingsGroup">
+  <div class="toogle-wrap">
+    <span>Notification:</span>
+
+    <tui-toggle 
+      formControlName="turnedNotification"
+      size="l"
+    ></tui-toggle>
+  </div>
+
+  <div class="toogle-wrap">
+    <span>Color schceme:</span>
+
+    <tui-toggle 
+      formControlName="colorScheme"
+      size="l"
+    ></tui-toggle>
+  </div>
+</ng-container>

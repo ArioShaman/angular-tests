@@ -1,0 +1,19 @@
+<ng-container [formGroup]="contactInfoGroup">
+  <div class="inputs-line">
+    <tui-input-phone-international
+      class="phone-input"
+      formControlName="phone"
+      [countries]="countries"
+      [countryIsoCode]="countryIsoCode"
+    ></tui-input-phone-international>
+  
+    <tui-input
+      class="m-input"
+      tuiTextfieldSize="s"
+      formControlName="email"
+    >
+      Email
+    </tui-input>
+  
+  </div>
+</ng-container>

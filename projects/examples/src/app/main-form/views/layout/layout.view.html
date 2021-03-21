@@ -1,0 +1,44 @@
+<div class="tabs">
+  <div 
+    class="tab"
+    routerLink="personal-info"
+    routerLinkActive="active"
+  >
+    Personal Info
+  </div>
+
+  <div
+    class="tab"
+    routerLink="contact-info"
+    routerLinkActive="active"
+  >
+    Contact Info
+  </div>
+
+  <div
+    class="tab"
+    routerLink="settings"
+    routerLinkActive="active"
+  >
+    Settings
+  </div>
+</div>
+
+<div class="body">
+  <form 
+    [formGroup]="mainForm"
+    (ngSubmit)="onSubmit(mainForm.value)"
+  >
+    <router-outlet></router-outlet>
+
+    <button
+      tuiButton
+      type="button"
+      class="submit-btn"
+      type="submit"
+      [disabled]="mainForm.invalid"
+    >
+      Submit
+    </button>
+  </form>
+</div>

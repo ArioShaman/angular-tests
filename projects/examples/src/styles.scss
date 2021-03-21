@@ -6,6 +6,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .m-input {
   width: 250px;
 }
@@ -25,4 +29,11 @@
   tui-toggle {
     margin-left: 10px;
   }
+}
+
+.body {
+  width: 800px;
+  position: relative;
+  margin: 0px auto;
+  margin-top: 25px;
 }

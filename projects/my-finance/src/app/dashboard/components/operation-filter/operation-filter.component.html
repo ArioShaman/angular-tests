@@ -1,0 +1,47 @@
+<form class="wrapper" [formGroup]="filterForm">
+  <tui-select
+    class="filter-select"
+    formControlName="sort"
+    [valueContent]="sortValues ? stringify(sortValues) : loading"
+  >
+    <ng-template tuiDataList>
+      <tui-data-list *ngIf="sortValues else loading">
+        <button *ngFor="let item of sortValues" tuiOption [value]="item.key">
+          {{ item.value }}
+        </button>
+      </tui-data-list>
+    </ng-template>
+  </tui-select>
+
+  <tui-select
+    class="filter-select"
+    formControlName="sortKind"
+    [valueContent]="sortKindValues ? stringify(sortKindValues) : loading"
+  >
+    <ng-template tuiDataList>
+      <tui-data-list *ngIf="sortKindValues else loading">
+        <button *ngFor="let item of sortKindValues" tuiOption [value]="item.key">
+          {{ item.value }}
+        </button>
+      </tui-data-list>
+    </ng-template>
+  </tui-select>
+
+  <tui-select
+    class="filter-select"
+    formControlName="period"
+    [valueContent]="periodValues ? stringify(periodValues) : loading"
+  >
+    <ng-template tuiDataList>
+      <tui-data-list *ngIf="periodValues else loading">
+        <button *ngFor="let item of periodValues" tuiOption [value]="item.key">
+          {{ item.value }}
+        </button>
+      </tui-data-list>
+    </ng-template>
+  </tui-select>
+</form>
+
+<ng-template #loading>
+  <tui-loader class="tui-space_vertical-3 loader"></tui-loader>
+</ng-template>

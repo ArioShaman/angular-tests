@@ -1,0 +1,36 @@
+<div class="operation-cont">
+  <div class="avatar">
+    {{ operation.attributes.description | slice:0:1}}
+  </div>
+
+  <div class="info-cont">
+    <div class="description">
+      {{ operation.attributes.description }}
+    </div>
+
+    <div class="date">
+      {{ operation.attributes.date | date : 'medium' }}
+    </div>
+  </div>
+
+  <div class="summ">
+    <tui-marker-icon
+      class="positive"
+      *ngIf="operation.attributes.summ > 0; else negativeSumm"
+      src="tuiIconArrowUpRight"
+      size="xs"
+    ></tui-marker-icon>
+
+    <ng-template #negativeSumm>
+      <tui-marker-icon
+        class="negative"
+        src="tuiIconArrowDownRight"
+        size="xs"
+      ></tui-marker-icon>
+    </ng-template>
+
+    <span class="price">
+      {{ operation.attributes.summ }}
+    </span>
+  </div>
+</div>

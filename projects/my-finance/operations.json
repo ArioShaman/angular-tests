@@ -1,0 +1,609 @@
+{
+  "resultCode": "OK",
+  "payload": {
+    "0": {
+      "payload": [
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "2013150430",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 2900.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1615328367000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1830106630",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 850.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1610926477000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1738775542",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 355.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1608386010000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1686568746",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 650.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1607021746000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1601345094",
+          "description": "Перевод на карту",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 1050.0000
+          },
+          "providerId": "c2c-out",
+          "detailedStatus": "PS",
+          "templateId": "236281943",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1604735465000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "bankCard": "427652******3217"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1546526785",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 400.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1603119569000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1545641804",
+          "description": "Даниил М.",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 470.0000
+          },
+          "providerId": "p2p-anybank",
+          "detailedStatus": "PS",
+          "templateId": "277244654",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1603106406000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "pointerType": "Телефон",
+            "maskedFIO": "Даниил М.",
+            "pointer": "+79614038913"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1412348328",
+          "description": "Перевод на карту",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 400.0000
+          },
+          "providerId": "c2c-out",
+          "detailedStatus": "PS",
+          "templateId": "236281943",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1598959094000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "bankCard": "427652******3217"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": true,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1383560193",
+          "description": "Перевод на карту",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 30.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 19970.0000
+          },
+          "providerId": "c2c-out",
+          "detailedStatus": "PS",
+          "templateId": "236281943",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1597939953000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "bankCard": "427652******3217"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1362245507",
+          "description": "Перевод на карту",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 1010.0000
+          },
+          "providerId": "c2c-out",
+          "detailedStatus": "PS",
+          "templateId": "236281943",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1597233306000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "bankCard": "427652******3217"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        },
+        {
+          "isDispute": false,
+          "sourceIsQr": false,
+          "bankAccountId": "5250964797",
+          "paymentId": "1269013770",
+          "description": "Перевод на карту",
+          "providerGroupId": "Переводы",
+          "paymentType": "Transfer",
+          "feeAmount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 0.0000
+          },
+          "brand": {
+            "name": "Сбербанк",
+            "baseTextColor": "ffffff",
+            "logo": "https://static.tinkoff.ru/brands/sberbank.png",
+            "id": "11242",
+            "roundedLogo": false,
+            "link": "http://www.sberbank.ru/",
+            "baseColor": "309c0b",
+            "logoFile": "sberbank.png"
+          },
+          "groupPayment": {
+            "id": "0"
+          },
+          "amount": {
+            "currency": {
+              "code": 643,
+              "name": "RUB",
+              "strCode": "643"
+            },
+            "value": 149.0000
+          },
+          "providerId": "c2c-out",
+          "detailedStatus": "PS",
+          "templateId": "236281943",
+          "hasPaymentOrder": false,
+          "date": {
+            "milliseconds": 1593693780000
+          },
+          "status": "OK",
+          "comment": "",
+          "additionalFields": {},
+          "fieldsValues": {
+            "bankCard": "427652******3217"
+          },
+          "cardNumber": "553691******0875",
+          "paymentOperationType": "TEMPLATE"
+        }
+      ],
+      "details": {
+        "hasNext": false
+      },
+      "resultCode": "OK"
+    }
+  },
+  "trackingId": "YCM41AB74"
+}

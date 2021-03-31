@@ -1,0 +1,8 @@
+<app-operation-filter></app-operation-filter>
+
+<div class="list-wrap">
+  <app-operation-element
+    *ngFor="let operation of operations$ | async | slice : 0 : 10"
+    [operation]="operation"
+  ></app-operation-element>
+</div>
